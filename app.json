@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "MarjokPOS",
+    "slug": "MarjokPOS",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#D3EFFF"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#D3EFFF"
+      },
+      "package": "com.marjokpos.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "photosPermission": "The app accesses your photos to let you share them with your friends."
+          }
+        ]
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3404779-4bf9-4acd-a890-3c2e6a9c330f"
+      }
+    }
+  }
+}
